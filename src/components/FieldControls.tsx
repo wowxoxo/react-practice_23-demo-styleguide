@@ -1,3 +1,4 @@
+import { Field } from "@wowxoxo/demo-component-library";
 import React from "react";
 import "./FieldControls.scss";
 
@@ -9,14 +10,10 @@ function FieldControls() {
       <h3 className="mt-3">Inputs</h3>
       <div className="row mt-3">
         <div className="col-sm-6">
-          <label htmlFor="my-input" className="company-label">
-            Input
-          </label>
-          <input
-            id="my-input"
-            className="company-input"
-            placeholder="Optional placeholder"
-          />
+          <Field>
+            <Field.Label>Input</Field.Label>
+            <Field.Input placeholder="Optional placeholder" />
+          </Field>
         </div>
         <div className="col-sm-6">
           <label htmlFor="my-disabled-input" className="company-label">

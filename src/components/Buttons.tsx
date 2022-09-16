@@ -11,19 +11,12 @@ function Buttons() {
       <div className="row mt-3">
         <div className="col-sm-4 text-center">
           <Button>Secondary</Button>
-          <button className="company-button company-button--secondary">
-            Secondary
-          </button>
         </div>
         <div className="col-sm-4 text-center">
-          <button className="company-button company-button--primary">
-            Primary
-          </button>
+          <Button variant="primary">Primary</Button>
         </div>
         <div className="col-sm-4 text-center">
-          <button className="company-button company-button--danger">
-            Danger
-          </button>
+          <Button variant="danger">Danger</Button>
         </div>
       </div>
       <h3 className="mt-3">Disabled</h3>
@@ -39,17 +32,13 @@ function Buttons() {
           </button>
         </div>
         <div className="col-sm-4 text-center">
-          <button className="company-button company-button--danger" disabled>
-            Danger [disabled]
-          </button>
+          <Button variant="danger" disabled>Danger [disabled]</Button>
         </div>
       </div>
       <h3 className="mt-3">Sizes</h3>
       <div className="row mt-3">
         <div className="col-sm-4 text-center">
-          <button className="company-button company-button--secondary company-button--small">
-            Small
-          </button>
+          <Button size="small">Small</Button>
         </div>
         <div className="col-sm-4 text-center">
           <button className="company-button company-button--secondary">
@@ -65,9 +54,7 @@ function Buttons() {
       <h3 className="mt-3">Full-width</h3>
       <div className="row mt-3">
         <div className="col-12">
-          <button className="company-button company-button--secondary is-block">
-            Full-width button
-          </button>
+          <Button isFullWidth>Full-width button</Button>
         </div>
       </div>
     </>
