@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from '@wowxoxo/demo-component-library'
 import "./Buttons.scss";
 
 function Buttons() {
@@ -9,6 +10,7 @@ function Buttons() {
       <h3 className="mt-3">Variants</h3>
       <div className="row mt-3">
         <div className="col-sm-4 text-center">
+          <Button>Secondary</Button>
           <button className="company-button company-button--secondary">
             Secondary
           </button>
